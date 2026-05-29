@@ -42,6 +42,9 @@ All responses must use JSON.
 1. Pluralize resource names.
 2. You should nest resources to follow object relations, but not more than 3 levels. If an object is a child object of another, it should be nested - for example, `projects/{id}/tasks`.
 
+### Methods
+Avoid using PATCH unless specifically requested and appropriate to the use case. Prefer PUT instead.
+
 ### Properties:
 1. Use camelCase for field names and parameters.
 2. If possible, use enums over strings
