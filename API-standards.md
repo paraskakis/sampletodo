@@ -41,6 +41,7 @@ All responses must use JSON.
 ### Resources:
 1. Pluralize resource names.
 2. You should nest resources to follow object relations, but not more than 3 levels. If an object is a child object of another, it should be nested - for example, `projects/{id}/tasks`.
+3. Avoid unnecessary nesting for operations where it would be unnecessary - for example: `GET projects/{id}/tasks` and `POST projects/{id}/tasks` are good, but `PUT projects/{id}/tasks/{id}` or `DELETE projects/{id}/tasks/{id}` are unnecessarily complex.
 
 ### Methods
 Avoid using PATCH unless specifically requested and appropriate to the use case. Prefer PUT instead.
