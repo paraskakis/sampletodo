@@ -70,7 +70,7 @@ Use ISO 8601 Dates - Follow https://datatracker.ietf.org/doc/html/rfc3339 &  htt
 
 ### Errors:
 1. Document all possible error conditions.
-2. Use the Problem Details format to describe error responses as described in https://www.rfc-editor.org/rfc/rfc9457.html
+2. Use the Problem Details format to describe error responses as described in https://www.rfc-editor.org/rfc/rfc9457.html and make sure errors have the `application/problem+json` media type.
 
 ### Status Codes:
 1. Use status codes 200, 201, 202 and 204 appropriately for successful responses.
