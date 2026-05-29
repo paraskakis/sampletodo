@@ -27,6 +27,7 @@ Point the `/design-api` skill at these four files when prompted for inputs.
 4. Scroll down for your API Key
 
 `echo 'export RMOA_API_KEY=your-key-here' >> ~/.zshrc`
+
 `source ~/.zshrc`
 
 ### Build a prototype with Replit
