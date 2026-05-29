@@ -25,12 +25,12 @@ Based on common task management patterns, in order of priority:
 2. Create a new task with a title, optional description, due date, and priority
 3. Get details for a specific task
 4. Mark a task as complete (or reopen it)
-5. Update a task's title, description, due date, or priority
+5. Update a task
 6. Delete a task
 7. List all projects
 8. Create a new project
 9. List tasks within a specific project
 10. Delete a project
-11. Update a projects's name and description
+11. Update a project
 
 **Note:** The API requires authentication — each user manages their own tasks and projects.
